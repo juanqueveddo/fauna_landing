@@ -305,14 +305,15 @@ input[type=number] {
 
 .animacion-footer {
     display: inline-block;
-    animation: slideLeft 15s linear infinite;
+    animation: slideLeft 20s linear infinite;
     position: relative;
     width: 100%;
     height: auto;
 }
 
 .marca-img {
-    margin-left: 20px;
+    margin-left: 3rem;
+    opacity: 0.7;
 }
 
 .animacion-footer img {
@@ -326,6 +327,55 @@ input[type=number] {
     }
 
     100% {
-        transform: translateX(-160%);
+        transform: translateX(-190%);
     }
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.faunabranding {
+    width: 30rem;
+}
+
+.dire-p {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+
+.info-p {
+    padding-bottom: 1rem;
+}
+
+.pais-p {
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+.direccion {
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin: auto;
+    border-right: solid 1px #fff;
+    border-left: solid 1px #fff;
+}
+
+.social {
+    padding: 12rem;
+}
+
+.redes-p {
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.redes-a {
+    color: #fff;
+    text-decoration: none;
 }

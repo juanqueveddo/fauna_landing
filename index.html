@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fauna Branding</title>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+    emailjs.init('hgP18F7kFQd_mSalP')
+    </script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -14,7 +20,7 @@
                 <li class="navbar-li">
                     <a href="#" class="navbar-img"><img src="./img/Logo_Nav.png" alt=""></a>
                     <a href="#" class="navbar-a">new website coming soon</a>
-                    <a href="#" class="navbar-a navbar-contacto">Contáctanos</a>
+                    <a href="#contactanos" class="navbar-a navbar-contacto">Contáctanos</a>
                 </li>
             </ul>
         </nav>
@@ -30,39 +36,39 @@
         </div>
         <div id="main">
             <p class="text">En Fauna llevamos más de 10 años ayudando a managers de tech companies y digital startups a construir en equipo marcas más creativas, audaces y competitivas.</p>
-            <h2 class="comencemos">Comencemos algo extraordinario</h2>
+            <h2 id="contactanos" class="comencemos">Comencemos algo extraordinario</h2>
                 <div id="contacto">
-                    <section class="form">
+                    <form class="form" id="form">
                         <div class="user">
                             <div>
-                                <h2>Nombre</h2>
-                                <input type="text">
+                                <label for="Nombre"><h2>Nombre</h2></label>
+                                <input type="text" name="Nombre" id="Nombre" required>
                             </div>
                             <div>
-                                <h2>Apellido</h2>
-                                <input type="text">
+                                <label for="Apellido"><h2>Apellido</h2></label>
+                                <input type="text" name="Apellido" id="Apellido" required>
                             </div>
                         </div>
                     <div class="datos">
                         <div>
-                            <h2>Email</h2>
-                            <input type="text">
+                            <label for="Mail"><h2>Mail</h2></label>
+                            <input type="text" name="Mail" id="Mail" required>
                         </div>
                         <div>
-                            <h2>Teléfono</h2>
-                            <input type="number">
+                            <label for="Teléfono"><h2>Teléfono</h2></label>
+                            <input type="number" name="Telefono" id="Telefono" required>
                         </div>
                     </div>
                     <div class="mesage">
                         <div>
-                        <h2>Mensaje</h2>
-                        <input type="text">
+                        <label for="Mensaje"><h2>Mensaje</h2></label>
+                        <input type="text" name="Mensaje" id="Mensaje" required>
                         </div>
                     </div>
                     <div class="button">
-                        <button class="form-button">Enviar</button>
+                        <button value="button" class="form-button" id="button">Enviar</button>
                     </div>
-                </section>
+                </form>
                 <div class="descarga">
                     <img class="descarga-img" src="./img/download.png" alt="descarga">
                     <p class="descarga-p">Descargá
@@ -88,9 +94,23 @@
                     <img class="marca-img" src="./img/fanbag.png" alt="marcas">
                     <img class="marca-img" src="./img/ingenia.png" alt="marcas">
                     <img class="marca-img" src="./img/megatlon.png" alt="marcas">
+                    <img src="./img/startia.png" alt="marcas" class="marca-img">
+                </div>
+            </div>
+            <div class="redes">
+                <img class="faunabranding" src="./img/fauna-gif.gif" alt="fauna">
+                <div class="direccion">
+                    <p class="dire-p info-p">info@faunabranding.com</p>
+                    <p class="dire-p">Av. Dorrego 864</p>
+                    <p class="pais-p">Buenos Aires, Argentina</p>
+                </div>
+                <div class="social">
+                    <p class="redes-p"><a class="redes-a" href="https://instagram.com/faunabranding">Instagram</a></p>
+                    <p class="redes-p"><a class="redes-a" href="https://www.linkedin.com/company/faunabranding/">Linkedin</a></p>
                 </div>
             </div>
         </div>
     </footer>
 </body>
+<script src="./js/main.js"></script>
 </html>
