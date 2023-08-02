@@ -19,23 +19,30 @@
             </ul>
         </nav>
     </header>
-    <main>  
-        <video class="video" muted autoplay loop src="./video/Fauna branding agency ® reel.mp4"></video>
+    <main>
+        <section class="arrow-section">
+            <div class="arrow">
+                <a href="#contacto"><img src="./img/arrow-icon.svg" alt=""></a> 
+            </div>
+        </section>  
+        <div id="video-container">
+            <video id="video-background" class="video" muted autoplay loop src="./video/Fauna branding agency ® reel.mp4"></video>
+        </div>
         <div id="main">
             <p class="text">En Fauna llevamos más de 10 años ayudando a managers de tech companies y digital startups a construir en equipo marcas más creativas, audaces y competitivas.</p>
             <h2 class="comencemos">Comencemos algo extraordinario</h2>
-            <div class="contacto">
-                <section>
-                    <div class="user">
-                        <div>
-                            <h2>Nombre</h2>
-                            <input type="text">
+                <div id="contacto">
+                    <section class="form">
+                        <div class="user">
+                            <div>
+                                <h2>Nombre</h2>
+                                <input type="text">
+                            </div>
+                            <div>
+                                <h2>Apellido</h2>
+                                <input type="text">
+                            </div>
                         </div>
-                        <div>
-                            <h2>Apellido</h2>
-                            <input type="text">
-                        </div>
-                    </div>
                     <div class="datos">
                         <div>
                             <h2>Email</h2>
@@ -53,14 +60,37 @@
                         </div>
                     </div>
                     <div class="button">
-                        <button>Enviar</button>
+                        <button class="form-button">Enviar</button>
                     </div>
                 </section>
+                <div class="descarga">
+                    <img class="descarga-img" src="./img/download.png" alt="descarga">
+                    <p class="descarga-p">Descargá
+                        nuestra Plataforma
+                        de Servicios</p>
+                    <button class="descarga-button">Descargar</button>
+                </div>
             </div>
+            <hr class="hr-footer">
         </div>
     </main>
     <footer>
-
+        <div class="footer">
+                <div class="text-footer">
+                    <p class="regular-weight">Ellos eligieron</p>
+                    <p class="bold-weight">Fauna Branding</p>
+                </div>
+            <div class="viewport">
+                <div class="animacion-footer">
+                    <img src="./img/marcas.png" alt="marcas">
+                    <img class="marca-img" src="./img/devify.png" alt="marcas">
+                    <img class="marca-img" src="./img/dhl.png" alt="marcas">
+                    <img class="marca-img" src="./img/fanbag.png" alt="marcas">
+                    <img class="marca-img" src="./img/ingenia.png" alt="marcas">
+                    <img class="marca-img" src="./img/megatlon.png" alt="marcas">
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
