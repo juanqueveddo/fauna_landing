@@ -394,6 +394,25 @@ input[type=number] {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 1280px) {
+    .comencemos {
+        margin-left: 3rem;
+    }
+
+    #contacto {
+        gap: 1rem;
+    }
+
+    .form {
+        width: 40rem;
+    }
+
+    .direccion {
+        padding: 5rem;
+    }
+
+}
+
 @media only screen and (max-width: 768px) {
     .navbar-li {
         flex-direction: column;
