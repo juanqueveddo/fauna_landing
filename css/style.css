@@ -14,6 +14,11 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .navbar {
     background: #000;
     height: 54px;
@@ -221,7 +226,7 @@ input[type=number] {
 }
 
 .form-button:hover {
-    background-color: #1b1b1b;
+    background-color: #222;
 }
 
 .descarga {
@@ -238,6 +243,10 @@ input[type=number] {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 3.5rem;
+}
+
+.descarga-a {
+    color: #000;
 }
 
 .descarga-p {
@@ -264,6 +273,10 @@ input[type=number] {
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.descarga-button:hover {
+    background-color: #dfdfdf;
 }
 
 .hr-footer {
@@ -312,8 +325,9 @@ input[type=number] {
 }
 
 .marca-img {
-    margin-left: 3rem;
-    opacity: 0.7;
+    margin-left: 4rem;
+    opacity: 0.5;
+    margin-bottom: 1rem;
 }
 
 .animacion-footer img {
@@ -378,4 +392,158 @@ input[type=number] {
 .redes-a {
     color: #fff;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-li {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-img {
+        margin-bottom: 10px;
+    }
+
+    .navbar-a {
+        display: none;
+    }
+
+    .navbar-contacto {
+        font-size: 12px;
+    }
+
+    .arrow-section {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .arrow {
+        width: 40px;
+        height: 40px;
+    }
+
+    .arrow img {
+        width: 30px;
+    }
+
+    #main {
+        padding: 2rem;
+    }
+
+    .text,
+    .comencemos {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .comencemos {
+        font-size: 2rem;
+    }
+
+    .text {
+        font-size: 1.5rem;
+        margin-top: -5rem;
+    }
+
+    #contacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    .user,
+    .datos,
+    .mesage {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user div,
+    .datos div,
+    .mesage div {
+        padding: 10px;
+    }
+
+    .descarga {
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+        width: 100%;
+        border-radius: 20px;
+        position: relative;
+        height: 20rem;
+        border: solid 1px #fff;
+    }
+
+    .descarga-img {
+        transform: translate(-50%, -150%);
+    }
+
+    .descarga-p {
+        color: #fff;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, 60%);
+    }
+
+    .descarga-button {
+        width: 50%;
+    }
+
+    .hr-footer {
+        display: none;
+    }
+
+    .footer {
+        padding-bottom: 2rem;
+    }
+
+    .text-footer {
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5rem;
+        padding-top: 2rem;
+    }
+
+    .animacion-footer {
+        animation-duration: 30s;
+    }
+
+    @keyframes slideLeft {
+        0% {
+            transform: translateX(100%);
+        }
+
+        100% {
+            transform: translateX(-900%);
+        }
+    }
+
+    .marca-img {
+        margin-left: 2rem;
+    }
+
+    .redes {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .faunabranding {
+        width: 100%;
+        max-width: 250px;
+        border-top: solid 1px #fff;
+    }
+
+    .direccion {
+        padding: 0rem;
+        margin: auto;
+        border: 0px;
+    }
 }

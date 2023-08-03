@@ -18,3 +18,18 @@ document.getElementById('form')
                 alert(JSON.stringify(err));
             });
     });
+
+document.getElementById('descargarBtn').addEventListener('click', function () {
+
+    const urlArchivo = '../pdf/Fauna_Plataforma_De_Servicios.pdf';
+
+    const linkDescarga = document.createElement('a');
+    linkDescarga.href = urlArchivo;
+    linkDescarga.download = 'Fauna_Plataforma_De_Servicios.pdf';
+    linkDescarga.style.display = 'none';
+
+    document.body.appendChild(linkDescarga);
+    linkDescarga.click();
+
+    document.body.removeChild(linkDescarga);
+});
