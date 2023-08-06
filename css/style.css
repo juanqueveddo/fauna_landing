@@ -223,6 +223,7 @@ input[type=number] {
     border: none;
     font-size: medium;
     transition: background-color 0.3s;
+    cursor: pointer;
 }
 
 .form-button:hover {
@@ -273,6 +274,7 @@ input[type=number] {
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: pointer;
 }
 
 .descarga-button:hover {
@@ -361,7 +363,7 @@ input[type=number] {
 }
 
 .info-p {
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .pais-p {
@@ -371,10 +373,10 @@ input[type=number] {
 }
 
 .direccion {
-    padding-left: 20rem;
-    padding-right: 20rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     margin: auto;
     border-right: solid 1px #fff;
     border-left: solid 1px #fff;
@@ -497,7 +499,7 @@ input[type=number] {
     }
 
     .descarga-img {
-        transform: translate(-50%, -150%);
+        transform: translate(-50%, -120%);
     }
 
     .descarga-p {
@@ -508,7 +510,7 @@ input[type=number] {
         position: absolute;
         top: 10%;
         left: 50%;
-        transform: translate(-50%, 60%);
+        transform: translate(-50%, 100%);
     }
 
     .descarga-button {
@@ -531,7 +533,7 @@ input[type=number] {
     }
 
     .animacion-footer {
-        animation-duration: 30s;
+        animation-duration: 25s;
     }
 
     @keyframes slideLeft {
@@ -540,12 +542,17 @@ input[type=number] {
         }
 
         100% {
-            transform: translateX(-900%);
+            transform: translateX(-700%);
         }
     }
 
     .marca-img {
         margin-left: 2rem;
+        width: 8rem;
+    }
+
+    .width-marca {
+        width: 100rem;
     }
 
     .redes {
