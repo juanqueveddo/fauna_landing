@@ -413,6 +413,20 @@ input[type=number] {
         padding: 5rem;
     }
 
+    .animacion-footer {
+        animation-duration: 20s;
+    }
+
+    @keyframes slideLeft {
+        0% {
+            transform: translateX(100%);
+        }
+
+        100% {
+            transform: translateX(-300%);
+        }
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
