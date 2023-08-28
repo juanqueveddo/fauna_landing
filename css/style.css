@@ -42,6 +42,7 @@ a {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
+    padding-right: 8rem;
 }
 
 .navbar-contacto {
@@ -114,11 +115,24 @@ a {
 
 .comencemos {
     color: #fff;
-    font-weight: 700;
-    font-size: 3.5rem;
+    font-weight: 500;
+    font-size: 2rem;
     margin-left: 15rem;
-    margin-top: 8rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+}
+
+.new-text {
+    margin-top: 10rem;
+    margin-right: 15rem;
+}
+
+.p1 {
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.mt {
+    padding-top: 5rem;
 }
 
 #contacto {
@@ -398,7 +412,7 @@ input[type=number] {
 
 @media only screen and (max-width: 1440px) {
     .comencemos {
-        margin-left: 3rem;
+        margin-left: 5rem;
     }
 
     #contacto {
@@ -473,6 +487,11 @@ input[type=number] {
 
     .comencemos {
         font-size: 2rem;
+    }
+
+    .new-text {
+        margin-top: 10rem;
+        margin-right: 0rem;
     }
 
     .text {

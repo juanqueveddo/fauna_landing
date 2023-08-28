@@ -4,7 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Fauna Branding, Fauna Landing, Fauna">
+    <meta name="author" content="Juan Cruz Quevedo">
+    <meta name="google-site-verification" content="MuQ7DG3m9PA78AXcqocWnJvoni42PnVV9hYaXUHCHN4" />
+    <meta name="description" content="Somos una agencia creativa especializada en branding, marketing y diseño para empresas de la industria digital.">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Fauna Branding</title>
+    <meta property="og:title" content="Fauna Branding">
+    <meta property="og:description" content="Somos una agencia creativa especializada en branding, marketing y diseño para empresas de la industria digital.">
+    <meta property="og:image" content="https://faunabranding.com/img/Logo_Nav.png">
+    <meta property="og:url" content="https://faunabranding.com/">
     <script type="text/javascript"
   src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
@@ -19,7 +32,7 @@
             <ul class="navbar-ul">
                 <li class="navbar-li">
                     <a href="#" class="navbar-img"><img src="./img/Logo_Nav.png" alt=""></a>
-                    <a href="#" class="navbar-a">new website coming soon</a>
+                    <a href="#" class="navbar-a" data-aos="fade-up">new website coming soon</a>
                     <a href="#contactanos" class="navbar-a navbar-contacto">Contáctanos</a>
                 </li>
             </ul>
@@ -28,25 +41,30 @@
     <main>
         <section class="arrow-section">
             <div class="arrow">
-                <a href="#contacto"><img src="./img/arrow-icon.svg" alt=""></a> 
+                <a href="#contacto"><img src="./img/arrow-icon.svg" alt="slide"></a> 
             </div>
         </section>  
         <div id="video-container">
             <video id="video-background" class="video" muted autoplay loop src="./video/Fauna branding agency ® reel.mp4"></video>
         </div>
         <div id="main">
-            <p id="contactanos" class="text">En Fauna llevamos más de 10 años ayudando a managers de tech companies y digital startups a construir en equipo marcas más creativas, audaces y competitivas.</p>
-            <h2 class="comencemos">Comencemos algo extraordinario</h2>
+            <p id="contactanos" data-aos="fade-up" class="text">En Fauna llevamos más de 10 años ayudando a managers de tech companies y digital startups a construir en equipo marcas más creativas, audaces y competitivas.</p>
+            <div class="new-text" data-aos="zoom-in">
+                <h2 class="comencemos p1">¡Te invitamos a realizar una sesión gratuita Discovery junto a dos Estrategas de marca especialistas en tech companies!</h2>
+                <h2 class="comencemos">Te acompañaremos a dar el próximo paso para construir una marca más competitiva, que te ayude a generar más oportunidades de venta e incrementar el precio de tus servicios. </h2>
+
+                <h2 class="comencemos mt">¡Inscríbete ahora y lleva tu marca al próximo nivel! 🚀✨</h2>
+            </div>
                 <div id="contacto">
-                    <form class="form" id="form">
+                    <form class="form" id="form" data-aos="fade-right">
                         <div class="user">
                             <div>
-                                <label for="Nombre"><h2>Nombre</h2></label>
+                                <label for="Nombre"><h2>Nombre y Apellido</h2></label>
                                 <input type="text" name="Nombre" id="Nombre" required>
                             </div>
                             <div>
-                                <label for="Apellido"><h2>Apellido</h2></label>
-                                <input type="text" name="Apellido" id="Apellido" required>
+                                <label for="Empresa"><h2>Empresa</h2></label>
+                                <input type="text" name="Empresa" id="Empresa" required>
                             </div>
                         </div>
                     <div class="datos">
@@ -69,7 +87,7 @@
                         <button value="button" class="form-button" id="button">Enviar</button>
                     </div>
                 </form>
-                <div class="descarga">
+                <div class="descarga" data-aos="fade-left">
                     <img class="descarga-img" src="./img/download.png" alt="descarga">
                     <p class="descarga-p">Mira nuestra Plataforma de Servicios</p>
                     <button class="descarga-button"><a class="descarga-a" target="_blank" href="https://docs.google.com/presentation/d/1lGTGfoa0W8LNIJtFHSuC0sqbucFpQ-PX/edit#slide=id.g251f47763a8_0_0">Link</a></button>
@@ -113,5 +131,9 @@
         </div>
     </footer>
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 <script src="./js/main.js"></script>
 </html>
